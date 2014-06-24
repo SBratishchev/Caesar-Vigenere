@@ -1,4 +1,4 @@
-commanda <input file> <output file> <key> <c or v> <c or d>
+commanda (input_file) (output_file) (key) (c or v) (c or d)
 
 input file - входной файл
 output file - выходной файл
@@ -8,5 +8,6 @@ c or d - crypt(закодировать) or decrypt(раскодировать)
 
 
 example:
+
 python lab.py in out 300 c c - читать из файла in, результат поместить в файл out, ключ = 300, использовать шифр Цезаря, закодировать
 python lab.py in out secret v d - читать из файла in, результат поместить в файл out, ключ = secret, использовать шифр Видженера, раскодировать
